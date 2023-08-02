@@ -57,6 +57,8 @@ main {
     }
 }
 
+/* ------------------------- Header ------------------------- */
+
 .header{
     display: flex;
     min-height: 120px;
@@ -65,6 +67,8 @@ main {
 .header-logo {
     display: inline-block;
     margin: auto;
+    position: relative;
+    left: 74px;
 }
 
 .fa-bars {
@@ -83,20 +87,127 @@ nav {
     height: 50px;
 }
 
+.nav-links {
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    color: #000;
+    font-size: 20px;
+    transition: .3s ease-in-out;
+}
+
+.nav-links:hover {
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
+}
+
+
+/* ------------------------- Form ------------------------- */
+
+.main-signup {
+    height: 680px;
+}
+
+#signup {
+    width: 100%;
+    height: 700px;
+    margin-top: 130px;
+    background-image: url("./images/sign-up-bg.jpg");
+    background-size: cover;
+}
+
+@media screen and (max-width: 767.98px) {
+    #signup {
+        margin-top: 0;
+    }
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.444);
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+}
+
+#signup-form>h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 6px;
+    padding: 14px 5px;
+    transition: .3s ease-in-out;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #566688;
+    color: #fafafa;
+    transition: .3s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+
+    #signup {
+        background-position: center;
+        position: relative;
+        bottom: 150px;
+    }
+
+    #signup-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #6be4f1;
+        transition: .3s ease-in-out;
+    }
+
+    .join-button:hover {
+        background-color: #363e59;
+        color: #ffffff;
+        transition: .3s ease-in-out;
+    }
+}
+
+/* ------------------------- Dropdown Menu ------------------------- */
+
 .dropbtn {
-    width: 94px;
+    width: 300px;
     height: 94px;
-    margin-top: 12px;
-    margin-left: 15px;
+    margin-top: 42px;
+    margin-left: 25px;
     background-color: transparent;
     border: none;
+    position: relative;
 }
 
 .dropdown-content {
+    text-align: center;
     display: none;
-    width: 344px;
-    height: 358px;
-    margin: 20px 40px;
+    width: 200px;
+    height: 160px;
+    margin: 10px 40px;
     position: absolute;
     background: #FFFFFF;
     box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
@@ -115,7 +226,7 @@ nav {
     display: block;
 }
 
-.dropdown button:hover .dropdown-content {
+.dropbtn:hover .dropdown-content {
     display: block;
 }
 
@@ -123,6 +234,110 @@ nav {
     position: relative;
     display: inline-block;
 }
+
+/* ------------------------- About us page ------------------------- */
+
+.aboutus p {
+    font-family: 'Lato-Regular';
+    line-height: 24px;
+    max-width: 1000px;
+    margin: 0 0 15px 100px;
+}
+
+.aboutus h3 {
+    font-family: 'Lato-Black';
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0 0 15px 100px;
+}
+
+.aboutus-btn {
+    font-family: 'Lato-Black';
+    font-size: 17px;
+    line-height: 24px;
+    margin: 0 0 56px 100px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+
+.aboutus-btn:hover {
+    background-color: #fff;
+    color: #000;
+    transition: .3s ease-in-out;
+}
+
+.aboutus-title {
+    font-family: 'Lato';
+    font-size: 28px;
+    line-height: 24px;
+    margin: 0 0 15px 100px;
+}
+
+.aboutus-list {
+    list-style: circle;
+    margin-left: 140px;
+    margin-bottom: 60px;
+}
+
+.aboutus-list li {
+    font-family: 'Lato';
+    margin-bottom: 14px;
+}
+
+.about-video {
+    width: 560px;
+    height: 315px;
+}
+
+.videos {
+    margin-bottom: 50px;
+    padding: 20px;
+} 
+
+
+.videos-list {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.videos-list h3,
+.videos-list p {
+    max-width: 500px;
+    font-size: 20px;
+}
+
+.videos-list p {
+    font-family: 'Kanit-Light';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.videos-title {
+    font-family: 'Lato';
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+@media (max-width: 1200px) {
+    .videos {
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+
+    .videos-list {
+        flex-direction: column;
+    }
+}
+
+/* ------------------------- Slider ------------------------- */
 
 .slider{
     display: flex;
@@ -249,6 +464,8 @@ nav {
       padding: 11px 66px 11px 65px;
     }
 } 
+
+/* ------------------------- Featured ------------------------- */
 
 .featured {
     max-width: 1155px;
@@ -440,6 +657,7 @@ nav {
     }
 }
 
+/* ------------------------- Event ------------------------- */
 
 .event {
     max-width: 1144px;
@@ -485,6 +703,13 @@ nav {
     background-color: #000;
     border: 2px solid white;
     margin: 30px auto;
+    transition: .3s ease-in-out;
+}
+
+.event-button:hover {
+    border-radius: 10px;
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
 }
 
 @media (max-width: 767.98px) {
@@ -506,6 +731,8 @@ nav {
       margin: 0 auto;
     }
 }
+
+/* ------------------------- Interviews ------------------------- */
 
 .interviews {
     max-width: 1144px;
