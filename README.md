@@ -1,4 +1,4 @@
-![Suffix logo](images/Group-2.png)
+![Suffix logo](images/Group-13.png)
 
 Welcome to the Suffix Music Platform! This web application is designed to be a one-stop destination for music enthusiasts to explore, discover, and connect with a diverse community of creators from around the world.
 
