@@ -68,7 +68,7 @@ main {
     display: inline-block;
     margin: auto;
     position: relative;
-    left: 74px;
+    left: 40px;
 }
 
 .fa-bars {
@@ -100,7 +100,6 @@ nav {
     transform: scale(1.1);
     transition: .3s ease-in-out;
 }
-
 
 /* ------------------------- Form ------------------------- */
 
