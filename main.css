@@ -254,7 +254,7 @@ nav {
     font-family: 'Lato-Black';
     font-size: 17px;
     line-height: 24px;
-    margin: 0 0 56px 100px;
+    margin: 0 0 20px 100px;
     padding: 8px 12px;
     border-radius: 8px;
     color: white;
@@ -279,7 +279,7 @@ nav {
 .aboutus-list {
     list-style: circle;
     margin-left: 140px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 .aboutus-list li {

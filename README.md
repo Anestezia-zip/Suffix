@@ -1,39 +1,75 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Suffix logo](images/Group-2.png)
 
-Welcome,
+Welcome to the Suffix Music Platform! This web application is designed to be a one-stop destination for music enthusiasts to explore, discover, and connect with a diverse community of creators from around the world.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsive Design](images/responsive-website.png)
+## Features 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+Discover the Finest Music: Immerse yourself in a vast selection of music genres, from trending tracks to hidden gems and everything in between. Suffix curates a collection that caters to all musical tastes.
 
-## Codeanywhere Reminders
+- __Navigation Bar__
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+    - Navigation bar includes links to the Home page, About Us and Sign Up page and is identical in each page to allow for easy navigation. 
+    - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-`python3 -m http.server`
+- __Striking Visuals__
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+    - Upon entering the landing page, users are greeted with a vibrant collage of musical instruments, artists performing on stage, and people enjoying music, instantly capturing the user's attention and setting the tone for an exciting adventure.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![Hero section](images/hero-section.png)
 
-`http_server`
+- __Clear Call-to-Action__
+    - Right a prominent call-to-action (CTA) button encourages visitors to "Read more" and "Nearest event". The CTA stands out with its contrasting color and directs users to dive deeper into the platform, enticing them to explore the diverse musical content that awaits.  
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __Featured Content__
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+    - As users scroll down the landing page, they encounter a curated selection of featured content, showcasing trending tracks, recent releases, and emerging talent. This section entices users to explore more by offering a taste of the rich and diverse musical content available on the platform.  
+    
+![Content](images/content.png)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __The About us Page__
 
-To log into the Heroku toolbelt CLI:
+    - The "About Us" page of the Suffix Music Platform provides a captivating insight into the platform's mission, vision, and the visionary team behind it. It narrates the platform's journey, emphasizing its commitment to fostering creativity, discovery, and authentic connections within the global music community. 
+    - In addition, the "About Us" page features interactive videos. 
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![About us](images/about-page.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __The Sign Up Page__
 
----
+    - The "Sign Up" page of the Suffix Music Platform offers users a seamless and user-friendly registration process, allowing them to become part of the dynamic music community. The page presents a simple and intuitive form where users can enter their essential details, such as name, email address, and password, to create a new account on the platform.
 
-Happy coding!
+![SignUp](images/signup-page.png)
+
+### Validator Testing 
+
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+## Languages Used
+
+- HTML5
+- CSS3
+
+
+## Deployment 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+## Credits 
+
+### Content 
+
+- The text for the Home page was taken from [Songkick](https://www.songkick.com/festivals/countries/ie), music bands and dates of their concerts were invented by me.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- The photos used on the home and sign up page are from This Open Source site
+- The images used for the gallery page were taken from this other open source site and [Pexels](https://www.pexels.com/)
+
+
