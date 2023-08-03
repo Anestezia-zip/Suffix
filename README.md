@@ -40,12 +40,24 @@ Discover the Finest Music: Immerse yourself in a vast selection of music genres,
 
 ![SignUp](images/signup-page.png)
 
+## Testing 
+
+- I tested that this page works in different browsers: Chrome, Firefox, Safari.
+- Project is responsive, looks good and functions on all standard screen sizes using the devtools device toolbar.
+- Navigation, header, about us, sign up,and home page are all readable and easy to understand.
+- The form works: requires entries in every field, will only accept an email in the email field, and the submit button works.
+
 ### Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+- Accessibility
+    - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools  
+
+![Accessibility](images/lighthouse-dekstop.png)
+
 
 ## Languages Used
 
@@ -66,6 +78,7 @@ Discover the Finest Music: Immerse yourself in a vast selection of music genres,
 
 - The text for the Home page was taken from [Songkick](https://www.songkick.com/festivals/countries/ie), music bands and dates of their concerts were invented by me.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- A piece of code, namely the form on the Sign Up page, was taken from the Love Running training project, but was adapted to my design and needs
 
 ### Media
 
