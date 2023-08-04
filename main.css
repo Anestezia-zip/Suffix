@@ -3,22 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     line-height: 1;
     font-size: 16px;
     background-color: #f5f8f6;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     font-size: inherit;
     font-weight: inherit;
 }
-  
+
 main {
     flex: 1 1 auto;
 }
@@ -27,11 +36,13 @@ main {
     font-family: "Lato";
     src: url(./fonts/Lato/Lato-Bold.ttf);
 }
-  @font-face {
+
+@font-face {
     font-family: "Kanit-Light";
     src: url(./fonts/Kanit/Kanit-Light.ttf);
 }
-  @font-face {
+
+@font-face {
     font-family: "Kanit-Medium";
     src: url(./fonts/Kanit/Kanit-Medium.ttf);
 }
@@ -48,7 +59,7 @@ main {
     flex-direction: column;
     margin: 0 auto;
     /* overflow: scroll; */
-    font-family: "Kanit-Medium";  
+    font-family: "Kanit-Medium";
 }
 
 @media (max-width: 767.98px) {
@@ -59,7 +70,7 @@ main {
 
 /* ------------------------- Header ------------------------- */
 
-.header{
+.header {
     display: flex;
     min-height: 120px;
 }
@@ -77,8 +88,8 @@ main {
 
 @media (max-width: 767.98px) {
     .header-logo img {
-      width: 105px;
-      height: 20px;
+        width: 105px;
+        height: 20px;
     }
 }
 
@@ -225,8 +236,16 @@ nav {
     display: block;
 }
 
+.xmark {
+    display: none !important;
+}
+
 .dropbtn:hover .dropdown-content {
     display: block;
+}
+
+.dropbtn:hover .xmark {
+    display: block !important;
 }
 
 .dropdown {
@@ -234,27 +253,32 @@ nav {
     display: inline-block;
 }
 
+
+
 /* ------------------------- About us page ------------------------- */
+.aboutus {
+    padding: 6px;
+}
 
 .aboutus p {
     font-family: 'Lato-Regular';
     line-height: 24px;
     max-width: 1000px;
-    margin: 0 0 15px 100px;
+    margin: 0 0 15px 40px;
 }
 
 .aboutus h3 {
     font-family: 'Lato-Black';
     font-size: 17px;
     line-height: 24px;
-    margin: 0 0 15px 100px;
+    margin: 40px 0 15px 100px;
 }
 
 .aboutus-btn {
     font-family: 'Lato-Black';
     font-size: 17px;
     line-height: 24px;
-    margin: 0 0 20px 100px;
+    margin: 0 0 40px 100px;
     padding: 8px 12px;
     border-radius: 8px;
     color: white;
@@ -278,7 +302,7 @@ nav {
 
 .aboutus-list {
     list-style: circle;
-    margin-left: 140px;
+    margin-left: 120px;
     margin-bottom: 20px;
 }
 
@@ -294,9 +318,8 @@ nav {
 
 .videos {
     margin-bottom: 50px;
-    padding: 20px;
-} 
-
+    padding: 6px;
+}
 
 .videos-list {
     display: flex;
@@ -336,29 +359,55 @@ nav {
     }
 }
 
+@media (max-width: 767.98px) {
+    .aboutus-title {
+        font-size: 26px;
+        line-height: 24px;
+        margin: 0 0 15px 40px;
+    }
+
+    .aboutus p {
+        margin: 0 0 15px 50px;
+    }
+
+    
+    .about-video {
+        width: 310px;
+        height: 315px;
+    }
+
+    .aboutus-list {
+        margin-left: 90px;
+    }
+}
+
 /* ------------------------- Slider ------------------------- */
 
-.slider{
+.slider {
     display: flex;
     max-width: 1440px;
     margin-bottom: 64px;
 }
+
 @media (max-width: 767.98px) {
     .slider {
-      flex-direction: column;
-      margin-bottom: 43px;
+        flex-direction: column;
+        margin-bottom: 43px;
     }
 }
+
 .slider-left {
     flex: 1 1 50%;
 }
+
 .slider-left img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
-.slider-right{
+
+.slider-right {
     flex: 1 1 50%;
     max-height: 570px;
     background-color: #000;
@@ -368,12 +417,13 @@ nav {
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
     .slider-right {
-      padding: 72px 18px 72px 22px;
+        padding: 72px 18px 72px 22px;
     }
 }
+
 @media (max-width: 767.98px) {
     .slider-right {
-      padding: 15px 12px 32px 13px;
+        padding: 15px 12px 32px 13px;
     }
 }
 
@@ -391,7 +441,6 @@ nav {
 
 .slider-right .lifestyle {
     font-size: 16px;
-    text-decoration: underline;
 }
 
 .slider-right .slider-middle {
@@ -406,7 +455,7 @@ nav {
 
 @media (max-width: 767.98px) {
     .slider-right .slider-title {
-      font-size: 18px;
+        font-size: 18px;
     }
 }
 
@@ -422,11 +471,11 @@ nav {
     }
 
     .slider-right .lifestyle {
-      display: none;
+        display: none;
     }
 
     .slider-right .slider-middle {
-      margin-bottom: 31px;
+        margin-bottom: 31px;
     }
 
     .slider-right .slider-title {
@@ -435,8 +484,8 @@ nav {
     }
 
     .slider-right .slider-text {
-      font-size: 12px;
-      line-height: 18px;
+        font-size: 12px;
+        line-height: 18px;
     }
 }
 
@@ -460,9 +509,9 @@ nav {
 
 @media (max-width: 1199.98px) {
     .slider-btn .slider-button {
-      padding: 11px 66px 11px 65px;
+        padding: 11px 66px 11px 65px;
     }
-} 
+}
 
 /* ------------------------- Featured ------------------------- */
 
@@ -474,7 +523,7 @@ nav {
 
 @media (max-width: 1199.98px) {
     .featured {
-      padding: 0px 12px;
+        padding: 0px 12px;
     }
 }
 
@@ -489,8 +538,7 @@ nav {
 }
 
 .featured-bl li:not(:last-child),
-.interviews li:not(:last-child)
-    {
+.interviews li:not(:last-child) {
     margin-right: 27px;
 }
 
@@ -509,28 +557,29 @@ nav {
     }
 
     .featured-bl {
-      flex-direction: column;
+        flex-direction: column;
     }
-    
+
     .featured-bl .featured-first {
-      margin-right: 0px;
-      margin-top: 0;
+        margin-right: 0px;
+        margin-top: 0;
     }
+
     .featured-title {
         margin-bottom: 30px;
     }
 
     .featured-bl .same-style {
-      display: none;
+        display: none;
     }
 
     .featured-bl li,
     .interviews li {
-      margin-right: 0 !important;
+        margin-right: 0 !important;
     }
 
     .featured-bl .featured-title2 {
-      font-size: 18px;
+        font-size: 18px;
     }
 }
 
@@ -577,7 +626,7 @@ nav {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 .featured-first-img {
@@ -592,7 +641,7 @@ nav {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
 .featured-second {
@@ -618,7 +667,7 @@ nav {
     background-color: #000;
     margin: 63px auto;
     transition: .3s ease-in-out;
-} 
+}
 
 .featured-button:hover {
     background-color: #fff;
@@ -633,21 +682,21 @@ nav {
         font-size: 14px;
         line-height: 21px;
     }
-  
+
     .featured-first-img {
-          max-width: 100%;
+        max-width: 100%;
     }
-      
+
     .featured-bl .prod-bl:not(:last-child) {
-      margin-right: 0px;
+        margin-right: 0px;
     }
-    
+
     .featured-bl .featured-flex-margin {
-      margin-bottom: 15px;
+        margin-bottom: 15px;
     }
-    
+
     .featured-bl .featured-title {
-      margin-bottom: 15px;
+        margin-bottom: 15px;
     }
 
     .featured-button {
@@ -665,18 +714,18 @@ nav {
     margin-top: 80px;
 }
 
-.event-left{
+.event-left {
     flex: 1 1 50%;
 }
 
-.event-left img{
+.event-left img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
 }
 
-.event-right{
+.event-right {
     max-height: 360px;
     background-color: #000;
     flex: 1 1 50%;
@@ -718,16 +767,16 @@ nav {
     }
 
     .event-right {
-      padding: 38px 20px 38px 20px;
+        padding: 38px 20px 38px 20px;
     }
 
     .event-title {
-      font-size: 18px;
-      line-height: 27px;
+        font-size: 18px;
+        line-height: 27px;
     }
 
     .event-button {
-      margin: 0 auto;
+        margin: 0 auto;
     }
 }
 
@@ -740,7 +789,7 @@ nav {
 
 @media (max-width: 1199.98px) {
     .interviews {
-      padding: 0px 12px;
+        padding: 0px 12px;
     }
 }
 
@@ -757,7 +806,7 @@ nav {
 
 .int-mar {
     margin: 0px auto 100px;
-  }
+}
 
 @media (max-width: 767.98px) {
     .interviews {
@@ -768,15 +817,17 @@ nav {
     .interviews .interviews-flex {
         flex-direction: column;
     }
+
     .int-title {
         font-size: 16px;
     }
+
     .int-mar {
         margin: 0px 12px 43px;
     }
 }
 
-footer{
+footer {
     min-height: 120px;
     background-color: #000;
     display: flex;
@@ -791,7 +842,7 @@ footer a {
 
 @media (max-width: 767.98px) {
     footer {
-      min-height: 163px;
-      padding: 55px 0 30px;
+        min-height: 163px;
+        padding: 55px 0 30px;
     }
 }

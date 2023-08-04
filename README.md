@@ -32,13 +32,25 @@ Discover the Finest Music: Immerse yourself in a vast selection of music genres,
     - The "About Us" page of the Suffix Music Platform provides a captivating insight into the platform's mission, vision, and the visionary team behind it. It narrates the platform's journey, emphasizing its commitment to fostering creativity, discovery, and authentic connections within the global music community. 
     - In addition, the "About Us" page features interactive videos. 
 
-![About us](images/about-page.png)
-
 - __The Sign Up Page__
 
     - The "Sign Up" page of the Suffix Music Platform offers users a seamless and user-friendly registration process, allowing them to become part of the dynamic music community. The page presents a simple and intuitive form where users can enter their essential details, such as name, email address, and password, to create a new account on the platform.
 
-![SignUp](images/signup-page.png)
+## Future features
+In the future, we plan to introduce several interesting features that will improve the user experience on the Suffix website:
+
+1. A "READ MORE" button for more information about the festival:  
+The button in the first section of the site will display a pop-up window with detailed information about the festival. This window will contain the festival poster, description, address, schedule, ticketing information, gallery, sponsors, list of upcoming festivals and concerts and much more. Users will be able to get a complete picture of the festival without leaving the main page of the site.
+![Content](images/read-more-btn.png)
+2. "VIEW ALL CONCERTS" Link:  
+List of upcoming festivals and concerts to provide a broader view of the featured musical group's performances. This link will lead users to a dedicated page where they can explore the group's upcoming tour dates, cities, and countries they will be performing in. Additionally, users can read more about the group, listen to their music, and purchase tickets for any of the listed concerts.
+![Content](images/view-concerts-link.png)
+3. "SEE ALL EVENTS" page with sorting option:
+Easy navigation is very important when searching for specific events. Therefore, in the future we are planning a comprehensive "See all events" page, which will contain a database of all events presented on the site. Users will be able to sort by date, event name, popularity, price, etc. This will allow them to quickly find events that match their preferences.  
+
+4. A detailed "SEE ALL INTERVIEW" and "SEE ALL NEWS" sections:
+By clicking on this link users will have access to a database containing interviews and news articles related to the band and other events discussed. The sorting options can be used to find interviews or news articles of interest.
+
 
 ## Testing 
 
