@@ -37,7 +37,7 @@ Discover the Finest Music: Immerse yourself in a vast selection of music genres,
     - The "Sign Up" page of the Suffix Music Platform offers users a seamless and user-friendly registration process, allowing them to become part of the dynamic music community. The page presents a simple and intuitive form where users can enter their essential details, such as name, email address, and password, to create a new account on the platform.
 
 ## Future features
-In the future, we plan to introduce several interesting features that will improve the user experience on the Suffix website:
+In the future, I plan to introduce several interesting features that will improve the user experience on the Suffix website:
 1. A "READ MORE" button for more information about the festival:  
 
 The button in the first section of the site will display a pop-up window with detailed information about the festival. This window will contain the festival poster, description, address, schedule, ticketing information, gallery, sponsors, list of upcoming festivals and concerts and much more. Users will be able to get a complete picture of the festival without leaving the main page of the site.
