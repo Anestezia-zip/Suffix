@@ -91,6 +91,10 @@ main {
         width: 105px;
         height: 20px;
     }
+
+    .fa-bars {
+        font-size: 34px;
+    }
 }
 
 nav {
@@ -253,8 +257,6 @@ nav {
     display: inline-block;
 }
 
-
-
 /* ------------------------- About us page ------------------------- */
 .aboutus {
     padding: 6px;
@@ -370,7 +372,7 @@ nav {
         margin: 0 0 15px 50px;
     }
 
-    
+
     .about-video {
         width: 310px;
         height: 315px;
