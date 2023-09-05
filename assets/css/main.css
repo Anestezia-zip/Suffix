@@ -34,17 +34,17 @@ main {
 
 @font-face {
     font-family: "Lato";
-    src: url(./fonts/Lato/Lato-Bold.ttf);
+    src: url(../fonts/Lato/Lato-Bold.ttf);
 }
 
 @font-face {
     font-family: "Kanit-Light";
-    src: url(./fonts/Kanit/Kanit-Light.ttf);
+    src: url(../fonts/Kanit/Kanit-Light.ttf);
 }
 
 @font-face {
     font-family: "Kanit-Medium";
-    src: url(./fonts/Kanit/Kanit-Medium.ttf);
+    src: url(../fonts/Kanit/Kanit-Medium.ttf);
 }
 
 .wrapper {
@@ -58,7 +58,6 @@ main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    /* overflow: scroll; */
     font-family: "Kanit-Medium";
 }
 
@@ -517,6 +516,25 @@ nav {
     }
 }
 
+#festivalInfo {
+    background-color: #748e75;
+    padding: 10px;
+    border-radius: 8px;
+    position: relative;
+    top: 15px;
+    left: -80px;
+    font-family: "Kanit-Light";
+}
+
+#festivalInfo span {
+    font-family: "Kanit-Medium";
+}
+
+#festivalInfo p {
+    margin-bottom: 8px;
+}
+
+
 /* ------------------------- Featured ------------------------- */
 
 .featured {
@@ -610,6 +628,7 @@ nav {
     text-decoration-line: underline;
     text-transform: uppercase;
     transition: .3s ease-in-out;
+    color: #000;
 }
 
 .same-style:hover {
