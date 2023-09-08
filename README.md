@@ -1,8 +1,8 @@
-![Suffix logo](images/Group-13.png)
+![Suffix logo](assets/images/Group-13.png)
 
 Welcome to the Suffix Music Platform! This web application is designed to be a one-stop destination for music enthusiasts to explore, discover, and connect with a diverse community of creators from around the world.
 
-![Responsive Design](images/responsive-website.png)
+![Responsive Design](assets/images/responsive-website.png)
 ## Features 
 
 Discover the Finest Music: Immerse yourself in a vast selection of music genres, from trending tracks to hidden gems and everything in between. Suffix curates a collection that caters to all musical tastes.
@@ -16,7 +16,7 @@ Discover the Finest Music: Immerse yourself in a vast selection of music genres,
 
     - Upon entering the landing page, users are greeted with a vibrant collage of musical instruments, artists performing on stage, and people enjoying music, instantly capturing the user's attention and setting the tone for an exciting adventure.
 
-![Hero section](images/hero-section.png)
+![Hero section](assets/images/hero-section.png)
 
 - __Clear Call-to-Action__
     - Right a prominent call-to-action (CTA) button encourages visitors to "Read more" and "Nearest event". The CTA stands out with its contrasting color and directs users to dive deeper into the platform, enticing them to explore the diverse musical content that awaits.  
@@ -25,7 +25,7 @@ Discover the Finest Music: Immerse yourself in a vast selection of music genres,
 
     - As users scroll down the landing page, they encounter a curated selection of featured content, showcasing trending tracks, recent releases, and emerging talent. This section entices users to explore more by offering a taste of the rich and diverse musical content available on the platform.  
     
-![Content](images/content.png)
+![Content](assets/images/content.png)
 
 - __The About us Page__
 
@@ -42,14 +42,14 @@ In the future, I plan to introduce several interesting features that will improv
 
 The button in the first section of the site will display a pop-up window with detailed information about the festival. This window will contain the festival poster, description, address, schedule, ticketing information, gallery, sponsors, list of upcoming festivals and concerts and much more. Users will be able to get a complete picture of the festival without leaving the main page of the site.
 
-![Content](images/read-more-btn.png)
+![Content](assets/images/read-more-btn.png)
 
 2. "VIEW ALL CONCERTS" Link:  
 
 
 List of upcoming festivals and concerts to provide a broader view of the featured musical group's performances. This link will lead users to a dedicated page where they can explore the group's upcoming tour dates, cities, and countries they will be performing in. Additionally, users can read more about the group, listen to their music, and purchase tickets for any of the listed concerts.
 
-![Content](images/view-concerts-link.png)
+![Content](assets/images/view-concerts-link.png)
 
 3. "SEE ALL EVENTS" page with sorting option:  
 Easy navigation is very important when searching for specific events. Therefore, in the future we are planning a comprehensive "See all events" page, which will contain a database of all events presented on the site. Users will be able to sort by date, event name, popularity, price, etc. This will allow them to quickly find events that match their preferences.  
@@ -74,7 +74,7 @@ By clicking on this link users will have access to a database containing intervi
 - Accessibility
     - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in devtools  
 
-![Accessibility](images/lighthouse-dekstop.png)
+![Accessibility](assets/images/lighthouse-dekstop.png)
 
 
 ## Languages Used
@@ -94,13 +94,13 @@ By clicking on this link users will have access to a database containing intervi
 
 ### Content 
 
-- The text for the Home page was taken from [Songkick](https://www.songkick.com/festivals/countries/ie), music bands and dates of their concerts were invented by me.
+- The text for the first section "Featured" Home page was taken from [Songkick](https://www.songkick.com/festivals/countries/ie), music bands and dates of their concerts were created by me.
+- external links to the news section are taken from this open Source site [pitchfork.com](https://pitchfork.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - A piece of code, namely the form on the Sign Up page, was taken from the Love Running training project, but was adapted to my design and needs
 
 ### Media
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site and [Pexels](https://www.pexels.com/)
+- The images were taken from this other open source site and [Pexels](https://www.pexels.com/)
 
 
