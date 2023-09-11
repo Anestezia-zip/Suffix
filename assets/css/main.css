@@ -206,13 +206,14 @@ nav {
 /* ------------------------- Dropdown Menu ------------------------- */
 
 .dropbtn {
-    width: 300px;
-    height: 94px;
+    width: 180px;
+    height: 55px;
     margin-top: 42px;
     margin-left: 25px;
     background-color: transparent;
     border: none;
     position: relative;
+    cursor: pointer;
 }
 
 .dropdown-content {
@@ -220,7 +221,7 @@ nav {
     display: none;
     width: 200px;
     height: 160px;
-    margin: 10px 40px;
+    margin: 10px 25px;
     position: absolute;
     background: #FFFFFF;
     box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.1);
@@ -299,7 +300,7 @@ nav {
     font-family: 'Lato';
     font-size: 28px;
     line-height: 24px;
-    margin: 0 0 15px 100px;
+    margin: 0 0 15px 36px;
 }
 
 .aboutus-list {
@@ -592,10 +593,6 @@ nav {
         margin-bottom: 30px;
     }
 
-    .featured-bl .same-style {
-        display: none;
-    }
-
     .featured-bl li,
     .interviews li {
         margin-right: 0 !important;
@@ -713,6 +710,7 @@ nav {
 
     .featured-bl .prod-bl:not(:last-child) {
         margin-right: 0px;
+        margin-bottom: 26px;
     }
 
     .featured-bl .featured-flex-margin {
@@ -739,7 +737,7 @@ nav {
     max-width: 1144px;
     margin: 0 auto;
     display: flex;
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .event-left {
@@ -867,6 +865,36 @@ footer a {
 }
 
 @media (max-width: 767.98px) {
+    .dropbtn {
+        width: 40px;
+    }
+    
+    .aboutus {
+        padding: 10px;
+        padding-right: 50px;
+    }
+
+    .aboutus-title {
+        margin: 0 0 15px 20px;
+    }
+
+    .aboutus p {
+        margin: 0 0 15px 20px;
+    }
+
+    .aboutus h3,
+    .aboutus a {
+        margin: 40px 0 15px 30px;
+    }
+
+    .aboutus-list {
+        margin-left: 70px;
+    }
+
+    .videos-title {
+        margin-left: 10px;
+    }
+
     footer {
         min-height: 163px;
         padding: 55px 0 30px;
