@@ -2,6 +2,8 @@
 
 Welcome to the Suffix Music Platform! This web application is designed to be a one-stop destination for music enthusiasts to explore, discover, and connect with a diverse community of creators from around the world.
 
+  The live link can be found here - [suffix.com](https://anestezia-zip.github.io/Suffix/)
+
 ![Responsive Design](assets/images/responsive-website.png)
 ## Features 
 
@@ -89,6 +91,8 @@ By clicking on this link users will have access to a database containing intervi
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+  The live link can be found here - [suffix.com](https://anestezia-zip.github.io/Suffix/)
 
 ## Credits 
 
